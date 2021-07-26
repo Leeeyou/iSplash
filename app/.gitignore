@@ -1,0 +1,17 @@
+*.iml
+*.class
+*.tmp
+*.log
+~$*
+.gradle
+.idea
+/local.properties
+/local_*.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/buildSrc/build
+/captures
+.externalNativeBuild
+app/alphaMiniBase

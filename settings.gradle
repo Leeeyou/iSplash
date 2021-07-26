@@ -1,0 +1,2 @@
+rootProject.name = "iSplash"
+include ':app'
