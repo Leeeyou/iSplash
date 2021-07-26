@@ -1,4 +1,4 @@
-## iSplash项目首个版本技术分享
+## iSplash项目首个版本
 
 ![sample-of-livedata](asset/iSplash-version-1.gif)
 
