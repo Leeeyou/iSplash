@@ -1,11 +1,9 @@
 package com.leeeyou.isplash.api
 
-import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import com.leeeyou.isplash.BuildConfig
 import com.leeeyou.isplash.data.CollectionResponse
 import com.leeeyou.isplash.data.PhotoDetail
 import com.leeeyou.isplash.data.PhotoResponse
-import kotlinx.coroutines.flow.Flow
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import okhttp3.logging.HttpLoggingInterceptor.Level
@@ -50,7 +48,6 @@ interface UnsplashService {
                 .baseUrl(BASE_URL)
                 .client(client)
                 .addConverterFactory(GsonConverterFactory.create())
-                .addCallAdapterFactory(CoroutineCallAdapterFactory.invoke())
                 .build()
                 .create(UnsplashService::class.java)
         }
